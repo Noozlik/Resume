@@ -1,0 +1,33 @@
+.main-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  color: #0b336c;
+}
+
+.card-content {
+  box-shadow: 0 0 10px #11438a;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.section-title {
+  text-align: center;
+}
+
+.vitime {
+  text-align: end;
+}
+
+.button-r {
+  text-align: center;
+
+  .btn {
+    border: 1px solid #010156;
+    padding: 5px 10px;
+    box-shadow: 0 0 10px #11438a;
+    border-radius: 20px;
+    font-size: 20px;
+  }
+}
+
+

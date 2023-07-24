@@ -1,0 +1,28 @@
+<div class="contact-wrapper">
+  <div class="card-contact">
+  <div class="main-contact"> <img src="assets/img/photo.png">
+    <ul class="contact-list">
+      <li class="email">
+        <i class="fas fa-envelope fa-lg"></i>
+        <a href="mailto:{{contactDetails.email}}">{{contactDetails.email}}</a>
+      </li>
+      <li class="phone">
+        <i class="fas fa-phone fa-lg"></i>
+        <a href="tel:{{contactDetails.phone}}">{{contactDetails.phone}}</a>
+      </li>
+      <li class="github">
+        <i class="fab fa-github fa-lg"></i>
+        <a href="{{contactDetails.github}}" target="_blank">Github</a>
+      </li>
+      <li class="telegram">
+        <i class="fab fa-telegram fa-lg"></i>
+        <a href="{{contactDetails.telegram}}" target="_blank">Telegram</a>
+      </li>
+    </ul>
+  </div>
+  <div class="info-cont"><p>You can always contact me through any of the <br>available channels</p>
+  </div >
+    <div class="download"><button class="button" (click)="goToNextpage()">Content</button>
+    </div>
+  </div>
+</div>
