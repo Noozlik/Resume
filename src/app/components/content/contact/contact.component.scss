@@ -11,7 +11,9 @@
   padding: 15px 80px;
   box-shadow: 0 0 10px #11438a;
   border-radius: 30px;
-
+    @media (max-width: 620px) {
+      padding: 10px 30px;
+    }
 }
 
 .main-contact {
@@ -23,12 +25,26 @@
   ul {
     list-style-type: none;
     margin: 0;
+
+    li {
+
+      i {
+        @media (max-width: 620px) {
+
+        }
+      }
+    }
   }
 
   img {
     height: 180px;
     border-radius: 200px;
     box-shadow: 0 0 10px #000000;
+
+    @media (max-width: 500px) {
+      display: none;
+    }
+
   }
 }
 

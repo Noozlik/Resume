@@ -28,6 +28,10 @@
   border-radius: 20px;
   padding: 20px;
 
+  @media (max-width: 768px) {
+
+  }
+
   @media print{
     box-shadow: none;
 
@@ -42,6 +46,15 @@
 
 .section-title {
   text-align: center;
+  margin-bottom: 20px;
+}
+
+.description {
+  li {
+  @media (max-width: 580px) {
+    margin: 5px;
+  }
+  }
 }
 
 .vitime {
