@@ -1,47 +1,49 @@
 <div class="main-wrapper">
-  <div class="card-content">
-    <div class="content">
-      <h2 class="section-title">Resume</h2>
-      <div class="summary">
-        <p class="color-blod">
-          I work at Faberlic as a content specialist and at the same time I study Frontend development.
-          I am currently learning the angular framework. Received a bachelor's degree in civil engineering from the university.
-          My best qualities include being a creative thinker, a team player, a multi-tasker, a
-          hard worker. I always try to learn something new and look for a fresh perspective on problem solving
-        </p>
-        <p>
-          I am currently working on two projects:
-        </p>
-        <ol>
-          <li>Interface layout</li>
-          <li>Web application</li>
-        </ol>
+  <div id="print-section">
+    <div class="card-content">
+      <div class="content">
+        <button class="button" ngxPrint printTitle="" printSectionId="print-section" [useExistingCss]="true">Print</button>
+        <h2 class="section-title">Resume</h2>
+        <div class="summary">
+          <p>
+            I work at Faberlic as a content specialist and at the same time I study Frontend development.
+            I am currently learning the angular framework. Received a bachelor's degree in civil engineering from the university.
+            My best qualities include being a creative thinker, a team player, a multi-tasker, a
+            hard worker. I always try to learn something new and look for a fresh perspective on problem solving
+          </p>
+          <p>
+            I am currently working on two projects:
+          </p>
+          <ol>
+            <li>Interface layout</li>
+            <li>Web application</li>
+          </ol>
       </div>
     </div>
   <div class="section experiences-section">
     <h2 class="section-title">Experiences</h2>
-    <div class="description">Faberlic
-      <h3>Content Specialist</h3>
-      <div>
-        <ul>
-          <li>Loading translations by descriptions and names of goods</li>
-          <li>Preparation of product lists for uploading to a flash catalog</li>
-          <li>Optimization of processes related to content maintenance</li>
-          <li>Uploading and loading the necessary data from the directory structure</li>
-        </ul>
-      </div>
-      <div class="vitime">2022 to present</div>
-    <h3>Pickup point specialist</h3>
-    <div>
-      <ul>
-        <li>Issuance of goods</li>
-        <li>Advising clients on products, brands and trends</li>
-        <li>Paperwork</li>
-      </ul>
+      <div class="description">Faberlic
+        <h3>Content Specialist</h3>
+        <div>
+          <ul>
+            <li>Loading translations by descriptions and names of goods</li>
+            <li>Preparation of product lists for uploading to a flash catalog</li>
+            <li>Optimization of processes related to content maintenance</li>
+            <li>Uploading and loading the necessary data from the directory structure</li>
+          </ul>
+        </div>
+        <div class="vitime">2022 to present</div>
+          <h3>Pickup point specialist</h3>
+        <div>
+          <ul>
+            <li>Issuance of goods</li>
+            <li>Advising clients on products, brands and trends</li>
+           <li>Paperwork</li>
+          </ul>
+        </div>
+          <div class="vitime">October 2020 - June 2022</div>
     </div>
-    <div class="vitime">October 2020 - June 2022</div>
-  </div>
-    <div class="button-r"><a class="btn" target="_blank" href="/assets/docs/resume.pdf"><span>Download Resume</span></a></div>
-  </div>
+      </div>
+    </div>
   </div>
 </div>

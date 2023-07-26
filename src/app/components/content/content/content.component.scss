@@ -2,12 +2,42 @@
   max-width: 800px;
   margin: 0 auto;
   color: #0b336c;
+
 }
 
+.button {
+  color: #0b336c;
+  border: 1px solid #11438a;
+  background-color: transparent;
+  border-radius: 20px;
+  box-shadow: 0 0 5px #11438a;
+
+  @media print{
+    display: none;
+    //box-shadow: none;
+    //color: #000000;
+    //border-style: none;
+  }
+
+}
+
+
 .card-content {
+  font-family: 'Inter', sans-serif;
   box-shadow: 0 0 10px #11438a;
   border-radius: 20px;
   padding: 20px;
+
+  @media print{
+    box-shadow: none;
+
+  }
+}
+
+.summary {
+  p{
+    text-indent: 15px;
+  }
 }
 
 .section-title {
@@ -19,6 +49,7 @@
 }
 
 .button-r {
+  padding: 10px 10px;
   text-align: center;
 
   .btn {
